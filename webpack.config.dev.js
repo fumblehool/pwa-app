@@ -89,7 +89,7 @@ module.exports = {
     }]
   },
   'resolve': {
-    'extensions': ['*', '.js', '.jsx', '.scss']
+    'extensions': ['*', '.js', '.jsx', '.scss', '.json']
   },
   'output': {
     'path': path.resolve(__dirname, './dist'),
