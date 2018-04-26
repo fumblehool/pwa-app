@@ -3,7 +3,7 @@ logs
 *.log*
 
 #dist folder
-dist
+#dist
 
 #node_modules folder
 node_modules

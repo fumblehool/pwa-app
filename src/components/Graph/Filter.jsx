@@ -12,6 +12,7 @@ class Filter extends Component {
         this.setState({
             selectedFilter: e
         });
+        this.props.changeActiveFilter(e);
     }
 
     render(){

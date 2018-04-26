@@ -23,8 +23,6 @@ class App extends Component {
           <Switch>
             <Route exact path="/home" component={Home}/>
             <Route exact path="/about" component={About}/>
-            <Route exact path="/contact" component={Contact}/>
-            <Route exact path="/player" component={Player}/>
             <Route exact path="/team" component={Team}/>
             <Route exact path="/" render={() => (<Redirect to="/home" />)} />
             <Route component={NotFound}/>

@@ -13,9 +13,9 @@ class TopPlayers extends Component {
 				<thead>
         <tr>
           {(() => {
-            return fieldNames.map((field) => {
+            return fieldNames.map((field, index) => {
               return (
-                <th className="publish__table__header">
+                <th key={index} className="publish__table__header">
                   <b>{field}</b>
                 </th>
               );

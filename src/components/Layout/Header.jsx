@@ -17,18 +17,18 @@ class Header extends Component{
                         <LinkContainer to="/home">
                         <NavItem eventKey={1}>Home</NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/player">
+                        {/* <LinkContainer to="/player">
                             <NavItem eventKey={2}>Players</NavItem>
-                        </LinkContainer>
+                        </LinkContainer> */}
                         <LinkContainer to="/team">
                             <NavItem eventKey={3}>Teams</NavItem>
                         </LinkContainer>
                         <LinkContainer to="/about">
                             <NavItem eventKey={4}>About</NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/contact">
+                        {/* <LinkContainer to="/contact">
                             <NavItem eventKey={5}>Contact</NavItem>
-                        </LinkContainer>
+                        </LinkContainer> */}
                         </Nav>
                 </Navbar.Collapse>
             </Navbar>

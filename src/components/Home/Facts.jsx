@@ -9,7 +9,7 @@ class Facts extends Component {
 				{(()=>{
 					return this.props.facts.map((fact, index)=>{
 						return (
-							<Col xs={12} md={3} className="facts-card">
+							<Col key={index} xs={12} md={3} className="facts-card">
 								<h2>
 								{fact.name}
 								</h2>
