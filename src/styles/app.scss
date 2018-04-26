@@ -1,4 +1,65 @@
 
+* { padding: 0; margin: 0; }
+html, body, #fullHt{
+    min-height: 100% !important;
+    height: 100%;
+    color: white;
+    background: #2a2a32;
+}
 
 
+.box {
+    width: 15%;
+    height:10%;
+    margin: 10px;
+    border: 2px solid green;
+    display: inline-flex;
+    overflow-wrap: break-word;
+    padding: 20px;
+}
+
+#app {
+    
+}
 //@import "foundation";
+
+
+.col-white{
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.filter-row {
+    border: 20px;
+    background-color: grey;
+    padding: 10px;
+    cursor: pointer;    
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.filter-selected {
+    background-color: #090909;
+}
+
+.filter-not-selected {
+    background-color: #222222;
+}
+
+.mt-10 {
+    margin-top:10px;
+}
+
+.mt-20 {
+    margin-top:20px;
+}
+
+.facts-card {
+    border: 1px solid white;
+    align-content: center;
+}

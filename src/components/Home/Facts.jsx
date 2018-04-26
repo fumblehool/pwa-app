@@ -1,24 +1,29 @@
 import React, { Component } from 'react';
 
+import { Row, Col } from 'react-bootstrap';
 
 class Facts extends Component {
 	render(){
 		return (
-			<div>
+			<Row className="mt-20">
 				{(()=>{
 					return this.props.facts.map((fact, index)=>{
 						return (
-							<div key={index}>
-							{fact.name}
-							===========
-							{fact.value}
-							============
-							{fact.by}
-							</div>
+							<Col xs={12} md={3} className="facts-card">
+								<h2>
+								{fact.name}
+								</h2>
+								<h2>
+								{fact.value}
+									</h2>
+									<h3>
+								{fact.by}
+								</h3>
+							</Col>
 						);
 					})
 				})()}
-			</div>
+			</Row>
 		);
 	}
 }
