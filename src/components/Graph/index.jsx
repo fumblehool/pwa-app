@@ -3,39 +3,22 @@ import React, { Component } from 'react';
 import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer} from 'recharts';
 
 import { Row, Col, Grid } from 'react-bootstrap';
-import TEAM from './../../Constants/TEAM';
-import TEAMS from './../../Constants/TEAMS';
 
 import Filter from './Filter';
 import Search from './Search';
 
 import {GraphDataNormaliser} from '../../utils';
 
-
-// const data = [
-// 	{ "name": "Page A", "uv": 1000, "pv": 2400, "amt": 2400, "uvError": [75, 20] },
-// 	{ "name": "Page B", "uv": 300, "pv": 4567, "amt": 2400, "uvError": [90, 40] },
-// 	{ "name": "Page C", "uv": 280, "pv": 1398, "amt": 2400, "uvError": 40 },
-// 	{ "name": "Page D", "uv": 200, "pv": 9800, "amt": 2400, "uvError": 20 },
-// 	{ "name": "Page E", "uv": 278, "pv": null, "amt": 2400, "uvError": 28 },
-// 	{ "name": "Page F", "uv": 189, "pv": 4800, "amt": 2400, "uvError": [90, 20] },
-// 	{ "name": "Page G", "uv": 189, "pv": 4800, "amt": 2400, "uvError": [28, 40] },
-// 	{ "name": "Page H", "uv": 189, "pv": 4800, "amt": 2400, "uvError": 28 },
-// 	{ "name": "Page I", "uv": 189, "pv": 4800, "amt": 2400, "uvError": 28 },
-// 	{ "name": "Page J", "uv": 189, "pv": 4800, "amt": 2400, "uvError": [15, 60] },
-//   ];
-
-
 class Graph extends Component{
 
 	state = {
 		filterName: this.props.graphModes[0],
-		teamName: TEAMS[0],
+		teamName: this.props.objectsName[0],
 	}
 
 	changeSelectedTeam = (index) => {
 		this.setState({
-			teamName: TEAMS[index]
+			teamName: this.props.objectsName[index]
 		});
 	}
 
@@ -47,8 +30,9 @@ class Graph extends Component{
 
 
 	render() {
-		const data = GraphDataNormaliser(this.state.filterName, this.state.teamName, TEAM);
-	
+		const data = GraphDataNormaliser(this.state.filterName, this.state.teamName, this.props.objectsList);
+		
+		
 		return (
 			<Grid>
 			<Row>
@@ -59,10 +43,10 @@ class Graph extends Component{
 					/>
 				</Col>
 
-				<Col xs={12} md={7}>
+				<Col xs={12} md={6}>
 					<ResponsiveContainer height={355}>
 					<LineChart width={900} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-						<Line type="monotone" dataKey="value" stroke="#8884d8" />
+						<Line type="monotone" dataKey={this.props.dataKey} stroke="#8884d8" />
 						<CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
 						<XAxis dataKey="name" />
 						<YAxis />
@@ -71,10 +55,10 @@ class Graph extends Component{
 					</ResponsiveContainer>
 				</Col>
 				
-					<Col xs={12} md={3}>
+					<Col xs={12} md={4}>
 					<Search
-						data={TEAM}
-						options={TEAMS}
+						data={this.props.objectsList}
+						options={this.props.objectsName}
 						changeSelectedTeam={this.changeSelectedTeam}
 					/>
 				</Col>

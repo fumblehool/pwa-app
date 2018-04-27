@@ -10,6 +10,7 @@ class Facts extends Component {
 					return this.props.facts.map((fact, index)=>{
 						return (
 							<Col key={index} xs={12} md={3} className="facts-card">
+								<div className="text-center">
 								<h2>
 								{fact.name}
 								</h2>
@@ -19,6 +20,7 @@ class Facts extends Component {
 									<h3>
 								{fact.by}
 								</h3>
+								</div>
 							</Col>
 						);
 					})

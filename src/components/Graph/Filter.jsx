@@ -26,7 +26,7 @@ class Filter extends Component {
                         }
                         return (
                             <Row key={index} onClick={()=>{this.selectFilter(index)}}
-                                className={"filter-row " + selected} >
+                                className={"filter-row text-center " + selected} >
                                 {filter}
                             </Row>
                         );

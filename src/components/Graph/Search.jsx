@@ -16,7 +16,7 @@ class Search extends Component {
 
     render(){
         return (
-            <Col>
+            <Col className="search-div">
                 
                 {(()=>{
                     return this.props.options.map((option, index)=>{
@@ -26,7 +26,7 @@ class Search extends Component {
                         }
                         return (
                             <Row key={index} onClick={()=>{this.selectFilter(index)}}
-                            className={"filter-row " + selected}>
+                            className={"filter-row text-center " + selected}>
                                 {option}
                             </Row>    
                         )
