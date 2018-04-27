@@ -30,9 +30,12 @@ class Graph extends Component{
 
 
 	render() {
-		const data = GraphDataNormaliser(this.state.filterName, this.state.teamName, this.props.objectsList);
-		
-		
+		const data = GraphDataNormaliser(
+						this.state.filterName,
+						this.state.teamName,
+						this.props.objectsList
+					);
+	
 		return (
 			<Grid>
 			<Row>

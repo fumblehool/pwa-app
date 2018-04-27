@@ -10,7 +10,7 @@ import { getPlayerNames } from './../../utils';
 class Player extends Component {
 
     state = {
-        graphModes: ["Max Score", "Total 6s & 4s", "Match Won", "Match Won if Toss Won %", "Match Won if Bat first %", "Match Won if Ball first %"],
+        graphModes: ["Max Score", "Total 6s", "Total 4s", "Total Score", "Wickets", "Match Played"],
         graphColorsCurrent: {x0: "#82ca9d", x1: "#3FAEFF"},
     }
 
