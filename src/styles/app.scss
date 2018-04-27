@@ -96,6 +96,11 @@ a {
 
 .search-div {
     height: 400px;
+    overflow: hidden;
+}
+
+
+.search-div:hover {
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -103,5 +108,11 @@ a {
 .searchbar {
     color: black;
     width: 100%;
-    padding-left: 20px;
+    padding: 10px 20px;
+    
+}
+
+.about {
+    text-align: justify;
+    padding: 30px !important;
 }

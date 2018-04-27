@@ -83,13 +83,20 @@ a {
 
 .search-div {
   height: 400px;
+  overflow: hidden; }
+
+.search-div:hover {
   overflow-y: scroll;
   overflow-x: hidden; }
 
 .searchbar {
   color: black;
   width: 100%;
-  padding-left: 20px; }
+  padding: 10px 20px; }
+
+.about {
+  text-align: justify;
+  padding: 30px !important; }
 @charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -7482,4 +7489,4 @@ button.close {
   overflow: visible;
   clip: auto; }
 
-/*# sourceMappingURL=main.1dd9d96ab15a8cf04d1f.css.map*/
+/*# sourceMappingURL=main.726084ec8c8d904ae7fe.css.map*/

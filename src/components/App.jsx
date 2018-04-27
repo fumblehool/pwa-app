@@ -3,7 +3,6 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 import { Row } from 'react-bootstrap';
 
-
 import Home from './Home';
 import About from './About';
 import Player from './Player';
