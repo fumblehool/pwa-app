@@ -85,6 +85,11 @@ a {
   height: 400px;
   overflow-y: scroll;
   overflow-x: hidden; }
+
+.searchbar {
+  color: black;
+  width: 100%;
+  padding-left: 20px; }
 @charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -7477,4 +7482,4 @@ button.close {
   overflow: visible;
   clip: auto; }
 
-/*# sourceMappingURL=main.18449b45cd96c55a008c.css.map*/
+/*# sourceMappingURL=main.13cc71987402510decae.css.map*/
