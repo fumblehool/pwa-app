@@ -1,14 +1,58 @@
 [
-  {"name": "Total Run", "value": 175528, "by": null },
-  {"name": "Total Wickets", "value": 6727, "by": null},
-  {"name": "Total 6s", "value": 5817, "by": null },
-  {"name": "Total 4s", "value": 15421, "by": null },
-  {"name": "Best Strike Rate", "value": 183.33, "by": "A. Russell" },
-  {"name": "Max Player Run", "value": 175, "by": "CH Gayle" },
-  {"name": "Most 6s", "value": 286, "by": "CH Gayle" },
-  {"name": "Most 4s", "value": 491, "by": "G. Gambhir" },
-  {"name": "Best bowling perf.", "value": "6/14", "by": "Sohail Tanvir" },
-  {"name": "Max Team Score", "value": 263, "by": "RCB" },
-  {"name": "Largest Six", "value": "111 m", "by": "AB de Villiers" }
+  {
+    "name": "Total Run",
+    "value": 175528,
+    "by": null,
+    "description": "A grand total of 175528 runs have been scored in during IPL (2008-17)"
+  },
+  {
+    "name": "Total Wickets",
+    "value": 6727,
+    "by": null,
+    "description": "Total of 6727 players have been dismissed in IPLs (2008-17)"},
+  {
+    "name": "Total 6s",
+    "value": 5817,
+    "by": null,
+    "description": "IPL fans have witnessed a total of 5817 sixes during the IPLs." },
+  {
+    "name": "Total 4s",
+    "value": 15421,
+    "by": null,
+    "description": "In IPLs, a total of 15421 boundaries have been scored." },
+  {
+    "name": "Best Strike Rate",
+    "value": 183.33,
+    "by": "A. Russell",
+    "description": "The record for Best Strike Rate is held by West Indies Player A. Russell. He is playing for Kolkata Knight Riders during IPL 2018." },
+  {
+    "name": "Max Player Run",
+    "value": 175,
+    "by": "CH Gayle",
+    "description": "The record for Maximum runs in a single match is held by West Indies Player CH Gayle who scored a total of 175 in a single inning." },
+  {
+    "name": "Most 6s",
+    "value": 286,
+    "by": "CH Gayle",
+    "description": "CH Gayle also holds record for Most sixes hit by a single man. His current sum is at 286 sixes." },
+  {"name": "Most 4s",
+    "value": 491,
+    "by": "G. Gambhir",
+    "description": "G. Gambhir holds record for Most Fours with a total of 491 boundaries." },
+  {
+    "name": "Best bowling perf.",
+    "value": "6/14",
+    "by": "Sohail Tanvir",
+    "description": "Sohail Tanvir holds record for best bowling figures. He dismissed 6 players in his spell of 4 overs." },
+  {
+    "name": "Max Team Score",
+    "value": 263,
+    "by": "RCB",
+    "description": "Royal Challenger Bangalore holds record for Maximum Team Score with a total score of 263 runs." },
+  {
+    "name": "Largest Six",
+    "value": "111 m",
+    "by": "AB de Villiers",
+    "description": "AB de Villiers, the South African Player, holds the record for largest six. He sent the ball flying over 111m." }
 ]
    

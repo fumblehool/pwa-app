@@ -30,6 +30,10 @@ a {
     cursor: pointer;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .filter-row {
     border: 20px;
     background-color: grey;
@@ -63,6 +67,11 @@ a {
 
 .facts-card > div {
     border: 1px solid white;
+}
+
+.facts-card > div:hover {
+    box-shadow: 0 2px 4px 0 #a2a2a2;
+    background-color: #33333d;
 }
 
 .black-text {

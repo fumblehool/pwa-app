@@ -28,6 +28,9 @@ a {
   color: white !important;
   cursor: pointer; }
 
+.cursor {
+  cursor: pointer; }
+
 .filter-row {
   border: 20px;
   background-color: grey;
@@ -57,6 +60,11 @@ a {
 
 .facts-card > div {
   border: 1px solid white; }
+
+.facts-card > div:hover {
+  -webkit-box-shadow: 0 2px 4px 0 #a2a2a2;
+          box-shadow: 0 2px 4px 0 #a2a2a2;
+  background-color: #33333d; }
 
 .black-text {
   color: black; }
@@ -7489,4 +7497,4 @@ button.close {
   overflow: visible;
   clip: auto; }
 
-/*# sourceMappingURL=main.726084ec8c8d904ae7fe.css.map*/
+/*# sourceMappingURL=main.cfbf0c0c5b1ffd920a96.css.map*/

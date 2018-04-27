@@ -16,6 +16,7 @@ The given Kaggle Data set cannot be used directly, so I have processed it and ha
 
 **webpack**: Bundling tool used.
 
+
 ### Run Locally
 
 1. Clone this repositoy using ```$ git clone git@github.com:fumblehool/pwa-app.git```
@@ -23,6 +24,11 @@ The given Kaggle Data set cannot be used directly, so I have processed it and ha
 3. Start Local webpack-dev-server using ```$ npm run start```
 4. Open Web browser at ```localhost:8080```
 
+### Bonus Points
+1. **Mobile Responsive**: The webapp is developed on mobile first basis.
+2. **Optimise Loading Time**: 
+    1) Webpack has been used to provide better loading time by implementing ```Bundle Splitting```.
+    2) ```Webpack bundle Analyzer``` is used to analyse the resulting bundle. 
 
 ### To-do
 
