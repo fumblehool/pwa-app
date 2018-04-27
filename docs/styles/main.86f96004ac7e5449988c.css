@@ -53,6 +53,9 @@ a {
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center; }
+
+.black-text {
+  color: black; }
 @charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -7445,4 +7448,4 @@ button.close {
   overflow: visible;
   clip: auto; }
 
-/*# sourceMappingURL=main.9adae9a3cdfdb9e0940b.css.map*/
+/*# sourceMappingURL=main.86f96004ac7e5449988c.css.map*/

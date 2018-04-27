@@ -85,7 +85,8 @@ const config = {
   'output': {
     'path': path.resolve(__dirname, './dist'),
     'filename': 'scripts/[name].[chunkhash].js',
-    'chunkFilename': 'scripts/[name].[chunkhash].js'
+    'chunkFilename': 'scripts/[name].[chunkhash].js',
+    'publicPath': '/pwa-app/'
   },
   'plugins': [
     new webpack.optimize.CommonsChunkPlugin({

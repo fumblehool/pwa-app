@@ -16,7 +16,7 @@ import Header from './Layout/Header';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter  basename="/pwa-app/">
       <div>
         <Header/>
         <Row>
