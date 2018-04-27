@@ -1,12 +1,14 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
 
-* { padding: 0; margin: 0; }
 html, body, #fullHt{
     min-height: 100% !important;
     height: 100%;
     color: white;
     background: #2a2a32;
 }
-
 
 .box {
     width: 15%;
@@ -17,12 +19,6 @@ html, body, #fullHt{
     overflow-wrap: break-word;
     padding: 20px;
 }
-
-#app {
-    
-}
-//@import "foundation";
-
 
 .col-white{
     color: white;
@@ -69,36 +65,43 @@ a {
     border: 1px solid white;
 }
 
-
 .black-text {
     color: black;
 }
 
-
 .nav-tabs{
     background-color:#161616;
-  }
-  .tab-content{
-      background-color:#303136;
-      color:#fff;
-      padding:5px
-  }
-  .nav-tabs > li > a{
-    border: medium none;
-  }
-  .nav-tabs > li > a:hover{
-    background-color: #303136 !important;
-      border: medium none;
-      border-radius: 0;
-      color:#fff;
-  }
+}
 
-  .nav-tabs > li > a {
-      background-color: #2a2a32 !important;
-  }
+.tab-content{
+    background-color:#303136;
+    color:#fff;
+    padding:5px
+}
+
+.nav-tabs > li > a{
+    border: medium none;
+}
+
+.nav-tabs > li > a:hover{
+    background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+
+.nav-tabs > li > a {
+    background-color: #2a2a32 !important;
+}
 
 .search-div {
     height: 400px;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.searchbar {
+    color: black;
+    width: 100%;
+    padding-left: 20px;
 }
